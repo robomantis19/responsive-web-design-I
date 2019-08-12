@@ -18,16 +18,41 @@ h1, h2, h3, h4, h5 {
 
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+body{
+    box-sizing: border-box;
+}
+.container{
+     margin-left: 12.5%;
+     width: 900px;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+}
+header{
+    margin-top: 5%;
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    align-items: center;
+}
 
-
-
-
+header nav{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    justify-content: space-around;
+}
 
 header nav a{
     font-size: 16px;
     color: grey;
     text-decoration: none;
 
+}
+
+.logoImg2{
+    margin-left: 10%;
 }
 
 button{
@@ -37,7 +62,60 @@ button{
     border: 1px solid black;
     background: white;
 }
-@media screen and (min-width: 480px) and (max-width: 714px){
+
+.logoImg{
+    display:none;
+}
+
+.container1{
+    display: flex;
+}
+
+.container2{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid black;
+}
+.contact{
+    margin-left: 12.5%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.copywrite{
+    width: 900px;
+    margin-left: 12.5%;
+    text-align: center;
+}
+
+.innovation{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.inno1{
+    width: 30%;
+    text-align: center;
+}
+.inno2{
+    width: 50%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 714px){
     
     header {
         margin-top: 10%;
