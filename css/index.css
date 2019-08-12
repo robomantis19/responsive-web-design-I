@@ -1,4 +1,26 @@
+
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+
+
+
+
 
 
 header nav a{
@@ -16,6 +38,7 @@ button{
     background: white;
 }
 @media screen and (max-width: 480px){
+    
     header {
         margin-top: 10%;
         height: 90vh;
@@ -56,20 +79,25 @@ button{
     }
 
     .innovation{
+        padding-bottom: 10%;
         display: flex;
         justify-content: center;
+        border-bottom: 1px solid black;
     }
     .innovation .inno1{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 40%;
-        font-size: 140%;
+        width: 30%;
+        font-size: 240%;
         text-align: center;
 
     }
     .innovation .inno2{
         display:none;
+    }
+    .container2{
+        border-bottom: 1px solid black;
     }
 }
 
