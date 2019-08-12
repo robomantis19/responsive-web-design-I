@@ -64,7 +64,7 @@ button{
 }
 
 .logoImg{
-    display:none;
+    display: none;
 }
 
 .container1{
@@ -118,13 +118,15 @@ button{
 @media screen and (max-width: 714px){
     
     header {
-        margin-top: 10%;
+        margin-top: 25%;
         height: 90vh;
         display:flex;
         justify-content :center;
         
 
     }
+    
+    
     header nav{
         display: flex;
         flex-direction:column-reverse;
@@ -133,6 +135,9 @@ button{
         
     }
     header nav .logoImg{
+        display: show;
+    
+        margin-top: 10%;
         padding: 10% 0;
         display: flex;
         justify-content: center;
@@ -141,7 +146,7 @@ button{
     }
     header nav div img{
         
-        width: 75%;
+        width: 25%;
         
         
     }
@@ -149,10 +154,10 @@ button{
         display: none;
     }
     header nav a{
-        padding: 4% 0;
+        padding: 2% 0;
         display: flex;
         justify-content:center;
-        margin: 10% 0;
+        margin: 8% 0;
         width: 120%;
         font-size: 120%;
         border-bottom: 1px solid black;
@@ -160,6 +165,7 @@ button{
     }
 
     .innovation{
+        margin-top: 50%;
         padding-bottom: 10%;
         display: flex;
         justify-content: center;
@@ -177,13 +183,32 @@ button{
     .innovation .inno2{
         display:none;
     }
+
+    .container1{
+        margin: 5% 5%;
+        padding-right: 15%;
+        font-size: 200%;
+        display: flex;
+        flex-direction: column;
+    }
     .container2{
+        margin: 5% 5%;
+        padding-right: 15%;
+        font-size: 200%;
+        display: flex;
+        flex-direction: column;
         border-bottom: 1px solid black;
+    }
+    .contact{
+        font-size: 200%;
+    }
+    .copywrite{
+        font-size: 200%;
     }
 }
 
 
-@media screen and (min-width: 715px)and (max-width: 940px){
+@media screen and (min-width: 715px)and (max-width: 1040px){
     /* .container{
         width: 160vh;
         display: flex;
@@ -229,6 +254,10 @@ button{
          display: none;
      }
 
+    .middle-img{
+        margin-right: 5%;
+    }
+
      .container1{
          margin: 8% 4%;
          padding: 4% 4%;
@@ -241,5 +270,8 @@ button{
          padding: 4% 4%;
          margin: 4% 4%;
          border-bottom: 1px solid black;
+     }
+     .contact{
+         margin-left: 15%;
      }
 }
