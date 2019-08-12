@@ -37,7 +37,7 @@ button{
     border: 1px solid black;
     background: white;
 }
-@media screen and (max-width: 480px){
+@media screen and (min-width: 480px) and (max-width: 714px){
     
     header {
         margin-top: 10%;
@@ -66,6 +66,9 @@ button{
         width: 75%;
         
         
+    }
+    .logoImg2{
+        display: none;
     }
     header nav a{
         padding: 4% 0;
@@ -101,3 +104,64 @@ button{
     }
 }
 
+
+@media screen and (min-width: 715px)and (max-width: 940px){
+    /* .container{
+        width: 160vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    } */
+    header{
+        width:100vh;
+        height: 30vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        
+    } 
+    .logoImg{
+        display: none;
+    }
+    header nav {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    header nav a{
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .innovation{
+        
+        display: flex;
+        justify-content:center;
+        padding: 4% 0;
+        border-bottom:1px solid black;
+    }
+    .inno1{
+        text-align:center;
+        font-size: 200%;
+    }
+    .inno2{
+         display: none;
+     }
+
+     .container1{
+         margin: 8% 4%;
+         padding: 4% 4%;
+         display: flex;
+         justify-content: center;
+     }
+     .container2{
+         display: flex;
+         justify-content: space-between;
+         padding: 4% 4%;
+         margin: 4% 4%;
+         border-bottom: 1px solid black;
+     }
+}
