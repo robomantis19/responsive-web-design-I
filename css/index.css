@@ -1,3 +1,277 @@
+
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+body{
+    box-sizing: border-box;
+}
+.container{
+     margin-left: 12.5%;
+     width: 900px;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+}
+header{
+    margin-top: 5%;
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    align-items: center;
+}
 
+header nav{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    justify-content: space-around;
+}
+
+header nav a{
+    font-size: 16px;
+    color: grey;
+    text-decoration: none;
+
+}
+
+.logoImg2{
+    margin-left: 10%;
+}
+
+button{
+    width:140px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    background: white;
+}
+
+.logoImg{
+    display: none;
+}
+
+.container1{
+    display: flex;
+}
+
+.container2{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid black;
+}
+.contact{
+    margin-left: 12.5%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.copywrite{
+    width: 900px;
+    margin-left: 12.5%;
+    text-align: center;
+}
+
+.innovation{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.inno1{
+    width: 30%;
+    text-align: center;
+}
+.inno2{
+    width: 50%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 714px){
+    
+    header {
+        margin-top: 25%;
+        height: 90vh;
+        display:flex;
+        justify-content :center;
+        
+
+    }
+    
+    
+    header nav{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items:center;
+        justify-content: space-between;
+        
+    }
+    header nav .logoImg{
+        display: show;
+    
+        margin-top: 10%;
+        padding: 10% 0;
+        display: flex;
+        justify-content: center;
+        width: 120%;
+        border-bottom: 1px solid black;
+    }
+    header nav div img{
+        
+        width: 25%;
+        
+        
+    }
+    .logoImg2{
+        display: none;
+    }
+    header nav a{
+        padding: 2% 0;
+        display: flex;
+        justify-content:center;
+        margin: 8% 0;
+        width: 120%;
+        font-size: 120%;
+        border-bottom: 1px solid black;
+        
+    }
+
+    .innovation{
+        margin-top: 50%;
+        padding-bottom: 10%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid black;
+    }
+    .innovation .inno1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        font-size: 240%;
+        text-align: center;
+
+    }
+    .innovation .inno2{
+        display:none;
+    }
+
+    .container1{
+        margin: 5% 5%;
+        padding-right: 15%;
+        font-size: 200%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container2{
+        margin: 5% 5%;
+        padding-right: 15%;
+        font-size: 200%;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid black;
+    }
+    .contact{
+        font-size: 200%;
+    }
+    .copywrite{
+        font-size: 200%;
+    }
+}
+
+
+@media screen and (min-width: 715px)and (max-width: 1040px){
+    /* .container{
+        width: 160vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    } */
+    header{
+        width:100vh;
+        height: 30vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        
+    } 
+    .logoImg{
+        display: none;
+    }
+    header nav {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    header nav a{
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .innovation{
+        
+        display: flex;
+        justify-content:center;
+        padding: 4% 0;
+        border-bottom:1px solid black;
+    }
+    .inno1{
+        text-align:center;
+        font-size: 200%;
+    }
+    .inno2{
+         display: none;
+     }
+
+    .middle-img{
+        margin-right: 5%;
+    }
+
+     .container1{
+         margin: 8% 4%;
+         padding: 4% 4%;
+         display: flex;
+         justify-content: center;
+     }
+     .container2{
+         display: flex;
+         justify-content: space-between;
+         padding: 4% 4%;
+         margin: 4% 4%;
+         border-bottom: 1px solid black;
+     }
+     .contact{
+         margin-left: 15%;
+     }
+}
